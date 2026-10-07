@@ -1,0 +1,10 @@
+name: astrbot_plugin_daily_summary
+display_name: 群聊日报
+desc: 统计当日发言排行，并用LLM生成趣味总结，支持手动触发和定时推送。
+short_desc: 生成群聊日报，包含发言排行与AI幽默总结，支持每日定时推送。
+version: 2.4.1
+author: 南寒Han
+repo: https://github.com/FurryNanhan/astrbot_plugin_daily_summary
+support_platforms:
+  - aiocqhttp
+astrbot_version: ">=4.0.0"

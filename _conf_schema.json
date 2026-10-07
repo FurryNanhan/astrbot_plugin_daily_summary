@@ -1,0 +1,41 @@
+{
+  "log_dir": {
+    "type": "string",
+    "description": "日志文件目录（需与日志插件配置完全一致）",
+    "default": "",
+    "hint": "请填写绝对路径。例如 WSL2: /mnt/d/AstrBotLogs/，Windows: D:/AstrBotLogs/，Linux: /opt/astrbot/logs/"
+  },
+  "filter_self": {
+    "type": "bool",
+    "description": "是否过滤机器人自身的消息",
+    "default": true
+  },
+  "bot_qq": {
+    "type": "string",
+    "description": "机器人的QQ号（用于过滤自身消息，留空则不过滤）",
+    "default": "",
+    "hint": "例如：1234567890"
+  },
+  "enable_schedule": {
+    "type": "bool",
+    "description": "是否启用定时推送日报",
+    "default": true
+  },
+  "schedule_time": {
+    "type": "string",
+    "description": "定时推送日报的时间（HH:MM 格式）",
+    "default": "08:00",
+    "hint": "例如：08:00 或 22:30"
+  },
+  "target_groups": {
+    "type": "list",
+    "description": "定时推送日报的目标群号（留空则不推送）",
+    "default": [],
+    "hint": "点击添加群号，例如：123456"
+  },
+  "use_llm_in_schedule": {
+    "type": "bool",
+    "description": "定时推送是否包含LLM总结（否则仅排行）",
+    "default": true
+  }
+}
