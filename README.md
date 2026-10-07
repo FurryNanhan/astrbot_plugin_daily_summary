@@ -60,7 +60,7 @@
 ## 📌 注意事项
 - **前置依赖**：本插件依赖你之前安装的**日志插件**生成的日志文件。
 - 日志文件名格式必须为 `YYYY-MM-DD_群ID.log`。
-- 调用LLM需要AstrBot已配置好提供商（如DeepSeek）。
+- 调用LLM需要AstrBot已配置好提供商。
 - 定时推送依赖 `APScheduler` 库，已写入 `requirements.txt`。
 
 ## 📝 作者的话
